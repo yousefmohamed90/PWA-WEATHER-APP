@@ -30,7 +30,7 @@ function App() {
 }
 
   return (
-    <div className="main-container">
+    <main className="main-container">
       <h2>Write the city name and press enter to see the weather </h2> 
       <input 
       type='text' 
@@ -72,7 +72,7 @@ function App() {
 
           </div>
           )}
-          </div>
+          </main>
     )}
     
 export default App;
