@@ -8,7 +8,7 @@ html, body, #root {
 }
 
 .main-container{
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://wallpapercave.com/wp/wp3399374.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('../public/images/weather.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
