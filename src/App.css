@@ -1,0 +1,119 @@
+html, body, #root {
+    font: 0.9rem sans-serif;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    color: #f8f1e5;
+    font-size:25px
+}
+
+.main-container{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://wallpapercave.com/wp/wp3399374.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.search {
+    outline: none;
+    padding: 15px 7%;
+    border-radius: 20px;
+    border: none;
+    margin:15px 40px;
+    background: rgba(250, 250, 250, 0.85);
+    font-size:25px;
+    
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 8%;
+    border-radius: 20px;
+    background: rgba(250, 250, 250, 0.85);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+}
+h2 {
+    margin-top: 18px;
+    text-transform: uppercase;
+    color: #f8f1e5;
+    font-size: 30px;
+    
+}
+p{
+    color: #1e2432;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 18px;
+    text-transform: uppercase;
+}
+
+.city-temp{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1e2432;
+    text-align: center;
+}
+
+.city sup {
+    font-size: 0.5em;
+}
+
+.city-name {
+    font-size: 2em;
+    color: #1e2432;
+}
+
+.city-name sup {
+    padding: 0.2em 0.6em;
+    margin-left: 0.2em;
+    border-radius: 30px;
+    color: #fff;
+    background: #ff8c00;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+    .search {
+        padding: 20px 15%;
+    }
+
+    .city {
+        padding: 40px 20%;
+    }
+}
+
+.suggestions {
+    list-style: none;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.suggestions li {
+    background: rgba(255,255,255,.9);
+    color: #2d6a4f;
+    margin-bottom: 8px;
+    padding: 10px 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.suggestions li:hover {
+    background: #2d6a4f;
+    color: white;
+    transform: translateX(5px);
+}
